@@ -1,3 +1,3 @@
-py pinalt.py pin_assignments_AD.csv +1.2B +3.3B VCCINT EPAD GND GNDA1 GNDA3 NetC108_1 NetC110_1 VCCD_PLL1 VCCD_PLL3 VCCA1 VCCA3 NetC108_1 VCCIO1 VCCIO3 VCCIO8
+py pinalt.py -AD2Q pin_assignments_AD.csv association_name.csv pin_assignments_Quartus.csv
 
 pause

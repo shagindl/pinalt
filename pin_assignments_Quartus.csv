@@ -1,5 +1,132 @@
-
-	# pinalt(ium).AD2Q generator version: 0.0.1
-
+### pinalt(ium).AD2Q generator version: 0.0.1###
 To,Assignment Name,Value
- ADC2_DRDY,Location,PIN_32
+ADC13_SCLK,Location,PIN_6
+ADC13_SCLK,I/O Standard,3.3-V LVCMOS
+intf_fmc.nE,Location,PIN_7
+intf_fmc.nE,I/O Standard,3.3-V LVCMOS
+pin_DG[0][1],Location,PIN_8
+pin_DG[0][1],I/O Standard,3.3-V LVCMOS
+ADC2_SDO,Location,PIN_10
+ADC2_SDO,I/O Standard,3.3-V LVCMOS
+ADC2_SDI,Location,PIN_11
+ADC2_SDI,I/O Standard,3.3-V LVCMOS
+intf_fmc.irq[0],Location,PIN_13
+intf_fmc.irq[0],I/O Standard,3.3-V LVCMOS
+clock,Location,PIN_23
+clock,I/O Standard,3.3-V LVCMOS
+ADC2_SCLK,Location,PIN_28
+ADC2_SCLK,I/O Standard,3.3-V LVCMOS
+ADC2_SYNC,Location,PIN_30
+ADC2_SYNC,I/O Standard,3.3-V LVCMOS
+intf_fmc.nOE,Location,PIN_31
+intf_fmc.nOE,I/O Standard,3.3-V LVCMOS
+ADC2_DRDY,Location,PIN_32
+ADC2_DRDY,I/O Standard,3.3-V LVCMOS
+ADC2_MCLK,Location,PIN_33
+ADC2_MCLK,I/O Standard,3.3-V LVCMOS
+DAC_SCLK,Location,PIN_39
+DAC_SCLK,I/O Standard,3.3-V LVCMOS
+DAC_SDIN,Location,PIN_42
+DAC_SDIN,I/O Standard,3.3-V LVCMOS
+ADC2_CS,Location,PIN_43
+ADC2_CS,I/O Standard,3.3-V LVCMOS
+DAC_CLR,Location,PIN_44
+DAC_CLR,I/O Standard,3.3-V LVCMOS
+intf_fmc.nWE,Location,PIN_46
+intf_fmc.nWE,I/O Standard,3.3-V LVCMOS
+ADC13_SDO[0][0],Location,PIN_49
+ADC13_SDO[0][0],I/O Standard,3.3-V LVCMOS
+ADC13_SDO[0][1],Location,PIN_50
+ADC13_SDO[0][1],I/O Standard,3.3-V LVCMOS
+ADC13_SDO[0][2],Location,PIN_51
+ADC13_SDO[0][2],I/O Standard,3.3-V LVCMOS
+ADC13_SDO[1][1],Location,PIN_58
+ADC13_SDO[1][1],I/O Standard,3.3-V LVCMOS
+ADC13_SDO[1][2],Location,PIN_59
+ADC13_SDO[1][2],I/O Standard,3.3-V LVCMOS
+ADC13_SDO[1][3],Location,PIN_60
+ADC13_SDO[1][3],I/O Standard,3.3-V LVCMOS
+DAC_LDAC,Location,PIN_64
+DAC_LDAC,I/O Standard,3.3-V LVCMOS
+intf_fmc.nADV,Location,PIN_65
+intf_fmc.nADV,I/O Standard,3.3-V LVCMOS
+ADC13_SDO[0][3],Location,PIN_66
+ADC13_SDO[0][3],I/O Standard,3.3-V LVCMOS
+ADC13_SDO[1][0],Location,PIN_67
+ADC13_SDO[1][0],I/O Standard,3.3-V LVCMOS
+DAC_SYNC,Location,PIN_68
+DAC_SYNC,I/O Standard,3.3-V LVCMOS
+pin_SYNC,Location,PIN_69
+pin_SYNC,I/O Standard,3.3-V LVCMOS
+pin_DG[1][1],Location,PIN_71
+pin_DG[1][1],I/O Standard,3.3-V LVCMOS
+pin_DM,Location,PIN_72
+pin_DM,I/O Standard,3.3-V LVCMOS
+intf_fmc.AD[0],Location,PIN_76
+intf_fmc.AD[0],I/O Standard,3.3-V LVCMOS
+intf_fmc.AD[1],Location,PIN_77
+intf_fmc.AD[1],I/O Standard,3.3-V LVCMOS
+intf_fmc.nWAIT,Location,PIN_80
+intf_fmc.nWAIT,I/O Standard,3.3-V LVCMOS
+intf_fmc.AD[2],Location,PIN_83
+intf_fmc.AD[2],I/O Standard,3.3-V LVCMOS
+intf_fmc.AD[3],Location,PIN_85
+intf_fmc.AD[3],I/O Standard,3.3-V LVCMOS
+pin_DG[1][0],Location,PIN_86
+pin_DG[1][0],I/O Standard,3.3-V LVCMOS
+pin_DG[0][0],Location,PIN_87
+pin_DG[0][0],I/O Standard,3.3-V LVCMOS
+intf_fmc.irq[1],Location,PIN_98
+intf_fmc.irq[1],I/O Standard,3.3-V LVCMOS
+pin_DGOUT[0],Location,PIN_99
+pin_DGOUT[0],I/O Standard,3.3-V LVCMOS
+intf_fmc.AD[4],Location,PIN_100
+intf_fmc.AD[4],I/O Standard,3.3-V LVCMOS
+pin_DGOUT[1],Location,PIN_101
+pin_DGOUT[1],I/O Standard,3.3-V LVCMOS
+intf_fmc.AD[15],Location,PIN_103
+intf_fmc.AD[15],I/O Standard,3.3-V LVCMOS
+intf_fmc.AD[5],Location,PIN_104
+intf_fmc.AD[5],I/O Standard,3.3-V LVCMOS
+intf_fmc.nBL[0],Location,PIN_105
+intf_fmc.nBL[0],I/O Standard,3.3-V LVCMOS
+pin_imp_txb_T1,Location,PIN_106
+pin_imp_txb_T1,I/O Standard,3.3-V LVCMOS
+intf_fmc.AD[10],Location,PIN_110
+intf_fmc.AD[10],I/O Standard,3.3-V LVCMOS
+intf_fmc.AD[11],Location,PIN_111
+intf_fmc.AD[11],I/O Standard,3.3-V LVCMOS
+intf_fmc.AD[8],Location,PIN_112
+intf_fmc.AD[8],I/O Standard,3.3-V LVCMOS
+intf_fmc.AD[9],Location,PIN_113
+intf_fmc.AD[9],I/O Standard,3.3-V LVCMOS
+intf_fmc.AD[6],Location,PIN_114
+intf_fmc.AD[6],I/O Standard,3.3-V LVCMOS
+intf_fmc.AD[7],Location,PIN_115
+intf_fmc.AD[7],I/O Standard,3.3-V LVCMOS
+intf_fmc.nBL[1],Location,PIN_119
+intf_fmc.nBL[1],I/O Standard,3.3-V LVCMOS
+pin_Pol[0],Location,PIN_120
+pin_Pol[0],I/O Standard,3.3-V LVCMOS
+pin_Pol[1],Location,PIN_121
+pin_Pol[1],I/O Standard,3.3-V LVCMOS
+pin_imp_tx_T1,Location,PIN_125
+pin_imp_tx_T1,I/O Standard,3.3-V LVCMOS
+ADC13_SDI,Location,PIN_132
+ADC13_SDI,I/O Standard,3.3-V LVCMOS
+ADC13_nCS,Location,PIN_133
+ADC13_nCS,I/O Standard,3.3-V LVCMOS
+ADC13_CONVST,Location,PIN_135
+ADC13_CONVST,I/O Standard,3.3-V LVCMOS
+intf_fmc.CLK,Location,PIN_136
+intf_fmc.CLK,I/O Standard,3.3-V LVCMOS
+ADC13_nPD_RST,Location,PIN_137
+ADC13_nPD_RST,I/O Standard,3.3-V LVCMOS
+intf_fmc.AD[14],Location,PIN_141
+intf_fmc.AD[14],I/O Standard,3.3-V LVCMOS
+ADC13_READY,Location,PIN_142
+ADC13_READY,I/O Standard,3.3-V LVCMOS
+intf_fmc.AD[12],Location,PIN_143
+intf_fmc.AD[12],I/O Standard,3.3-V LVCMOS
+intf_fmc.AD[13],Location,PIN_144
+intf_fmc.AD[13],I/O Standard,3.3-V LVCMOS

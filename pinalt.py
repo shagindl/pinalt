@@ -83,13 +83,16 @@ def pins_extraction(filename, exclude_nets):
 
 def AD2Q(pinAD, association_name, filename):
     content = ''
-    content = content + '\n\t# pinalt(ium).AD2Q generator version: %s\n\n' % VERSION
+    content = content + '### pinalt(ium).AD2Q generator version: %s###\n' % VERSION
     # Head
     content += 'To,Assignment Name,Value\n'
     for i, Npin in enumerate(pinAD._dict['Pin Designator']):
-        if pinAD._dict['Net Name'][i] in association_name._dict['Net Name']:
+        if pinAD._dict['Net Name'][i] in association_name._dict['Net Name'] and pinAD._dict['Net Name'][i] != '':
            j = next( j for j, comp in enumerate(association_name._dict['Net Name']) if comp == pinAD._dict['Net Name'][i])
            content += '%s,Location,PIN_%s\n' % (association_name._dict['To'][j], Npin)
+           # I/O Starndart
+           if pinAD._dict['IO Standard'][i] != '':
+               content += '%s,I/O Standard,%s\n' % (association_name._dict['To'][j], pinAD._dict['IO Standard'][i])
     # Get pure filename
     os_filename = os.path.basename(filename)
     index_of_dot = os_filename.index('.')
@@ -141,9 +144,9 @@ if __name__ == '__main__':
         else:
             print('Not defined Key = ', key, '. Key = -AD2Q')
 
-        for net in sys.argv[2:]:
-            exclude_nets.append(net.lower())
-        try:
-            pins_extraction(sys.argv[1], exclude_nets)
-        except IOError:
-            error("ERROR: Invalid netfilename;")
+        # for net in sys.argv[2:]:
+        #     exclude_nets.append(net.lower())
+        # try:
+        #     pins_extraction(sys.argv[1], exclude_nets)
+        # except IOError:
+        #     error("ERROR: Invalid netfilename;")
